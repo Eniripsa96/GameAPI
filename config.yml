@@ -1,0 +1,9 @@
+lobby-server: Not Set
+game-enabled: false
+max-players: 100
+MySQL:
+  username: 'apple2'
+  password: 'wnhe7MVvwU'
+  database: 'apple2_pvp_game_manager'
+  host: 'apple2.site.nfoservers.com'
+  port: '3306'

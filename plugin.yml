@@ -1,0 +1,19 @@
+name: GameAPI
+main: com.sucy.game.GameAPI
+version: 1.0
+author: Eniripsa96
+
+commands:
+  game:
+
+permissions:
+  game.player:
+    default: true
+  game.admin:
+    default: op
+
+  game.*:
+    default: op
+    children:
+      game.player: true
+      game.admin: true
